@@ -1,0 +1,730 @@
+*{
+	margin:0px;
+	padding:0px;
+	border:none;
+	outline:none;
+	font-size: 100%;
+}
+
+
+.go-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  height:50px;
+  width: 50px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.go-top-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .go-top-btn {
+      display: block; /* Explicitly show it on small screens */
+      height:50px;
+  width: 50px;
+  z-index: 100;
+  }
+}
+/*header */
+
+.header1{
+    background-color:#605c5c;
+    color:black;
+    position: relative;
+    height: 50px;
+    margin-top: 0;
+    padding-top: 0;
+    
+  }
+ 
+
+.social-media a {  
+    text-decoration: none;
+    padding: 3px;
+    text-align: center;
+    border-radius: 2px;
+    font-size:small;
+  }
+  .twi{
+    background-color:#1d9ff0;
+  }
+  .fac{
+    background-color:#3b5998;
+  }
+  .lin{
+    background-color: #0077b4;
+  }
+
+  .social-media i{
+    color:white;
+    text-align: center;
+    padding: 1px;
+  }
+  .mail a{
+    color:white;
+    font-size:10px;
+    margin-right:3px;
+  }
+  .mail .a:hover{
+    color:white;
+  }
+  .social-media a:hover {
+    color: white;
+    text-decoration: none;
+}
+.icon-size {
+  font-size: 12px;
+}
+
+
+  /*navbar */
+  .navbar{
+    background-color: white;
+  }
+.nav-link{
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #0094de;
+    text-align: center;
+    font-size:18px;
+    font-weight: 500;
+}
+.nav-link:hover{
+    color:black;
+}
+.navlogo {
+    height:70px;
+  }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(0, 123, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+/* General styling for the navbar logo */
+.navlogo {
+  max-height: 60px; /* Set a reasonable max-height for the logo */
+  padding-left: 9px; /* Remove any left padding */
+}
+
+/* Media query for mobile screens */
+@media (max-width: 576px) {
+  .navbar-brand {
+      margin-right: 100px; /* Remove right margin */
+    
+  }
+
+  .container-fluid {
+      padding-left: 0; /* Remove container padding on mobile */
+      padding-right: 0; /* Remove container padding on mobile */
+  }
+
+  .navbar-toggler {
+      margin-right: 10px; /* Reduce margin-right for the toggler icon */
+  }
+}
+
+
+/*welcome*/
+.welcome{
+    color:#615c5c;
+    font-size:60px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.welcomePara{
+    color:#615c5c;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+/* abt*/
+.abtcont{
+    background-color: #0093dc;
+}
+
+
+/*our expertise*/
+.footercard
+{
+    padding: 15px;
+    border-bottom: 5px solid  #0093dc;
+    min-height: 90px;
+  }
+  .cardtext{
+    color:#615c5c;
+    font-size: 26px;
+    font-weight: 600;
+  }
+  
+
+.btn-1{
+    border-color: #0093dc;
+    color: #0093dc;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.btn-1:hover{
+    color:#0093dc;
+}
+.exp-img2:hover{
+  transform: scale(1.03);
+}
+
+
+/*projects*/
+
+.proj{
+    font-size: 70px;
+}
+
+/*Client*/
+.client-con{
+    background-color: #e2e2e2;
+}
+
+.clientp{
+    color: #615c5c;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+/*footer*/
+.footer-cont{
+  background-color:#615c5c;
+  padding-top: 3px;
+}
+
+
+.footer-logo{
+  max-width: 100%; 
+  height: auto;
+}
+.footer-para li{
+  margin-bottom: 2px;
+  color: white;
+  font-size: 16px;
+}
+.footer-para p{
+  color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+.footer_img{
+  max-width: 70px;
+   height: auto;
+  border-radius: 5px;
+}
+.footerven-text{
+  color:white;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.mail{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.mail:hover{
+  color:white;
+  text-decoration: none;
+}
+
+.footer-icon{
+  color: white;
+}
+.footerbottom{
+  background-color:#0093dc;
+  color:white;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+.footerrow1{
+  padding-left: 150px;
+}
+
+.carousel-indicators {
+  margin-bottom: -3rem !important;
+}
+
+
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 6px;
+    height: 6px;
+    padding: 0;
+    margin-right: 1px;
+    margin-left: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color:#615c5c;
+    background-clip: padding-box;
+    border: 0;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.btn-2{
+  border-color: #0093dc;
+  color: #0093dc;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.btn-2:hover{
+  background-color:#0093dc;
+  color: white;
+}
+
+.carousel-indicators .indicator-btn {
+  background-color: #6c757d; 
+}
+
+.carousel-indicators .indicator-btn.active {
+  background-color: black; 
+}
+
+/*Expertise Page*/
+.footercard1
+{
+    padding: 18px;
+    border-bottom: 5px solid  #0093dc;
+    height:20vh;
+  }
+  .cardtext1{
+    color:#615c5c;
+    font-size: 26px;
+    font-weight: 600;
+  }
+.exp-img{
+  width:100%;
+  height: 100%;
+}
+
+.exp-img:hover{
+  transform: scale(1.03);
+}
+
+
+/*clients*/
+.client-img{
+  width: 80%;
+}
+
+/*CSR*/
+.phil-header{
+  font-size:40px;
+  color:#615c5c;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.phil-para{
+  padding-top: 2px;
+  font-size: 16px;
+  color: #616161;
+  font-family: sans-serif;
+  text-align:justify;
+}
+.card-1{
+  border-color: #333;
+  background-color: #333;
+  cursor: pointer;
+  border: 5px solid #333;
+  border-radius: 0;
+  height: 90%;
+  
+}
+.card-csr-text{
+  color:white;
+  padding-bottom:5px;
+}
+
+
+.conentcsr{
+  position: absolute;
+  display: flex;
+  color:white;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  top:0;
+  left: 0;
+  background:rgba(0,0,0,0.5);
+  transition: 0.6s;
+  opacity: 0;
+}
+
+
+.conentcsr i {
+  font-size: 2em; /* Adjust the size (e.g., 2em for larger icon) */
+  padding-bottom: 50px;
+}
+.conentcsr:hover{
+  opacity: 1;
+}
+
+
+.close {
+  position: absolute;
+  top: 5px; /* Adjust as needed for spacing from the top */
+  right: 10px; /* Adjust as needed for spacing from the right */
+  font-size: 25px;
+  font-weight: bold;
+  color:#615c5c; /* Change to white for contrast against the background */
+  background-color:#fff; /* Set your desired background color */
+  border: none; /* Remove default border */
+  border-radius: 90px; /* Optional: round the corners */
+  padding-left: 3px; /* Add some padding */
+  padding-right: 3px;
+  cursor: pointer;
+  z-index: 100;
+  transition: background-color 0.3s; /* Optional: add transition for hover effect */
+}
+
+#imageModal {
+  width: 50%;
+  height: 90vh;
+  overflow: hidden;
+  display: none; /* Hidden by default */
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1050;
+}
+
+
+
+/* .modal-body {
+  padding: 10px; 
+  height: 50%;
+  overflow: hidden; 
+}
+*/
+.modal-body img {
+  max-width: 100%; 
+  max-height: 100%; 
+  object-fit: contain;
+} 
+
+
+
+.close {
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  font-size: 25px; /* Font size */
+  color:#605c5c; /* Change to white for contrast against the background */
+  background-color:#fff; /* Button background color */
+  border: none; /* Remove default border */
+  border-radius: 50%; /* Round the button */
+  cursor: pointer; /* Change cursor */
+  z-index: 100; /* Ensure it is on top */
+}
+
+.iprev,
+.inext {
+    width: 100px; /* Set width for buttons */
+    height: 100px; /* Set height for buttons */
+    background-color: #8b8585; /* Background color */
+    position: absolute; /* Positioning outside the modal */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for vertical centering */
+    z-index: 15; /* Ensure buttons are on top */
+    display: flex; /* Center content */
+    align-items: center; /* Align items center */
+    justify-content: center; /* Center content horizontally */
+    color: #fff; /* Set text/icon color to white */
+    font-size: 50px; /* Set font size for icons */
+}
+
+/* Positioning for the left arrow */
+.iprev {
+    left: -23px; /* Adjust to position outside the modal on the left */
+}
+
+/* Positioning for the right arrow */
+.inext {
+    right: -23px; /* Adjust to position outside the modal on the right */
+}
+
+/* Hover effect */
+.iprev:hover,
+.inext:hover {
+    background-color: transparent; /* Change background on hover */
+}
+
+/* Styles for arrow indicators */
+.iprev,
+.inext {
+    background-color: transparent; /* Remove default background */
+    width: 50px; /* Width of arrow icons */
+    height: 50px; /* Height of arrow icons */
+    border: none; /* Remove border */
+}
+
+/* Adjust colors of arrows */
+
+
+/* Optional: Add some spacing to prevent overlap with carousel content */
+.inn {
+    padding: 0 20px; /* Adjust padding */
+}
+
+/* Add this if using Font Awesome or similar */
+.icon {
+    color: #060505; /* Icon color */
+    font-size: 50px; /* Icon size */
+}
+
+
+.modal-text {
+  padding: 4x; /* Add some padding around the paragraph */
+  font-size: 16px; /* Set the font size */
+  color: #333; /* Change the text color */
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+/* Close button alignment */
+.close {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  z-index: 10;
+}
+
+/* Adjusting the size of icons for smaller screens */
+@media (max-width: 767px) {
+  .icon {
+      font-size: 1.5rem;
+  }
+}
+
+/* Custom padding for smaller screens */
+@media (max-width: 576px) {
+  .modal-dialog {
+      max-width: 100%;
+      margin: 10px;
+      align-self: start;
+  }
+
+  .carousel-control-prev, 
+  .carousel-control-next {
+      width: 30px; /* Adjust icon button size */
+  }
+}
+
+
+/*contact */
+
+.container-con {
+  position: relative; /* Needed for positioning the headings */
+  text-align: center; /* Center the text over the image */
+  color: white; /* Set the text color to white for better visibility */
+  min-height: 30vh;
+}
+
+.img-con {
+  width: 100%;
+  min-height:30vh;
+  opacity: 0.8; /* Optional: Adjust image opacity */
+}
+
+.container-con h1,
+.container-con h3 {
+  position: absolute;
+  z-index: 2; /* Make sure the text is above the image */
+  width: 100%; /* Make the text span the full width */
+  left: 50%;
+  transform: translateX(-50%); /* Center the text horizontally */
+}
+
+.container-con h1 {
+  top: 30px; /* Position of the first heading from the top */
+}
+
+.container-con h3 {
+  top: 70px; /* Position of the second heading from the top */
+}
+
+.container-con::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(18, 97, 139, 0.5); /* Blue overlay with 50% opacity */
+  z-index: 1; /* Ensure the overlay is below the headings */
+}
+
+.contact-text{
+  padding-top: 20px;
+}
+.contact-text2{
+  padding-top: 50px;
+}
+.con-icon{
+  color: #0093dc;
+  font-size: 20px;
+}
+.con-mail{
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+}
+.con-mail:hover{
+  color:black;
+}
+.name-inputs {
+  display: flex; /* Makes the inputs appear in a row */
+  gap: 10px; /* Adds space between the inputs */
+}
+
+.name-inputs .form-control {
+  flex: 1; 
+}
+
+.btn-contact{
+  background-color:#FFF500;
+  font-size: 18px;
+  font-family: Arial;
+}
+.form-lab{
+  color: #565969;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight:bold;
+}
+.contact-form{
+  background-color: #80808029;
+  width:400px;
+}
+.contact-form1{
+  width: 100%;
+  background-color: #80808029;
+  padding:10px;
+}
+.contact-form:focus {
+  border: 1px solid #000;
+  
+}
+.contact-form1:focus {
+  border: 1px solid #000;
+  
+}
+.texta{
+  width: 100%;
+  background-color: #80808029;
+  padding:10px;
+}
+
+@media (max-width: 576px) {
+  .contact-text {
+      font-size: 1.2rem; /* Adjust text size for mobile */
+  }
+
+  h1.contact-text {
+      font-size: 1.5rem; /* Adjust heading size for mobile */
+  }
+  .container-con {
+    position: relative; /* Needed for positioning the headings */
+    text-align: center; /* Center the text over the image */
+    color: white; /* Set the text color to white for better visibility */
+    height: 30vh;
+
+  }
+  
+}
+
+
+/* Styling for the side-icons container */
+.side-icons {
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  position: fixed;
+  z-index: 100;
+  font-size: medium;
+}
+
+/* Reset padding and margin for the list */
+.side-icons ul {
+  padding: 0;
+  margin: 0;
+}
+
+.side-icons li {
+  height: 40px;
+  width: 50px;
+  list-style-type: none;
+  padding-left: 12px;
+  padding-top: 6px;
+  margin-top: 5px;
+  color: #fff;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center; /* Centers icon and text vertically */
+}
+
+/* Styling for individual items */
+.email,
+.call,
+.contact {
+  background: #1d9ff0;
+}
+
+/* Hover effect to expand width */
+.side-icons ul li:hover {
+  width: 120px; /* Expand width when hovered */
+  transition: 0.5s ease; /* Smooth transition */
+}
+
+/* Hide the text initially */
+.side-icons ul li .text {
+  display: none;
+  margin-left: 10px;
+}
+
+/* Show text only when the li is hovered */
+.side-icons ul li:hover .text {
+  display: inline-block; /* Text becomes visible */
+  white-space: nowrap; /* Prevent text from wrapping */
+  transition: opacity 0.3s ease; /* Smooth text fade-in */
+  opacity: 1; /* Ensure text is fully visible */
+}
+
+/* Optional: Adjust the padding for the icon */
+.side-icons ul li i {
+  font-size: 20px;
+}
+/* Remove underline from anchor tags */
+.side-icons a {
+  text-decoration: none; /* No underline */
+  color: inherit; /* Inherit color from parent */
+}
